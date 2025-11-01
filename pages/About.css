@@ -597,6 +597,7 @@ body {
 /* --- SERVICES SECTION --- */
 .services-grid {
   display: grid;
+  
   grid-template-columns: 1fr;
   gap: 2rem;
 }
@@ -654,6 +655,7 @@ body {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   transition: color 0.3s ease-in-out;
+  margin-right: 1rem;
 }
 .service-description {
   color: var(--text-medium);
